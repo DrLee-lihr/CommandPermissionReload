@@ -1,4 +1,4 @@
-/*CommandPermissionReload Copyright(C) 2020 HuoranLi*/
+# CommandPermissionReload Copyright(C) 2020 HuoranLi
 import random
 
 commandpermission_help=1
