@@ -1,0 +1,2 @@
+# CommandPermissionReload
+A MCDR plugin
