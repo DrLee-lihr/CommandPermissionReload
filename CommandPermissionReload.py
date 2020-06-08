@@ -69,6 +69,9 @@ commandpermission_worldborder=4
 commandpermission_xp=4
 # Parts can be modified end
 
+def on_load(server, old):
+	server.add_help_message('!!<command>', '以MCDR可控制的权限系统执行指令§7<command>§r')
+
 def on_user_info(server,info):
     
     if info.content.startswith("!!?") and server.get_permission_level(info)>=commandpermission_help:
